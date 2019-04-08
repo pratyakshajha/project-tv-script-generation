@@ -9,10 +9,10 @@ The aim is to generate Seinfeld TV scripts using RNNs using Seinfeld dataset of 
 ### Rubrics
 | Criteria                                           | Specifications                                                                                                                                                                                        | Finished |
 |----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|
-| Pre-processing Data | The function `create_lookup_tables` and `token_lookup` is implemented |<ul><li>[ ] </li></ul>|
+| Pre-processing Data | The function `create_lookup_tables` and `token_lookup` is implemented |<ul><li>[x] </li></ul>|
 | Batching Data    | Data is broken into sequences, created using TensorDataset and batched correctly  |<ul><li>[ ] </li></ul>|
 | Build the RNN    | The RNN is defined and includes at least one LSTM (or GRU) and fully-connected layer.  |<ul><li>[ ] </li></ul>|
-| RNN Training | Reasonable hyperparameters are selected for training   |<ul><li>[x] </li></ul>|
+| RNN Training | Reasonable hyperparameters are selected for training   |<ul><li>[ ] </li></ul>|
 |Generate TV Script | The generated script can vary in length, and should look structurally similar to the TV script in the dataset.  |<ul><li>[ ] </li></ul>|
 | Prepare report    | Refer the [rubrics](https://review.udacity.com/#!/rubrics/2260/view)  |<ul><li>[ ] </li></ul>|
 
